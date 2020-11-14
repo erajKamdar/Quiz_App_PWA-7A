@@ -134,6 +134,7 @@ function App() {
       </div>
 
       <Footer />
+      {console.log('Please Refresh Two Times when You go OFFLINE')}
     </div>
   );
 }
