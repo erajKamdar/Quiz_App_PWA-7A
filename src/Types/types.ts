@@ -32,3 +32,13 @@ export type selectPropsType = {
     setLevel: (level: string) => void;
     callback: (e: React.FormEvent<EventTarget>, questions: number, level: string) => void;
 };
+
+export type configFirebase = {
+    apiKey: string;
+    authDomain: string;
+    databaseURL: string;
+    projectId: string;
+    storageBucket: string;
+    messagingSenderId: string;
+    appId: string;
+  };
